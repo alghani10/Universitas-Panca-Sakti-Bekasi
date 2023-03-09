@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+/* element selector*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-color: #03a9f4;
+  padding: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #03a9f4;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+main {
+  overflow: auto;
+  padding: 15px;
+}
+
+/* grouping selctor */
+h2,
+h3 {
+  color: #03a9f4;
+}
+
+aside {
+  text-align: center;
+  width: 24%;
+  float: right;
+}
+
+/* class selector */
+.jumbotron {
+  background-color: #4fc3f7;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px gainsboro;
+}
+
+.content {
+  width: 75%;
+  float: left;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.label {
+  background-color: #03a9f4;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.feature_img {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 922px) {
+  .content,
+  aside {
+    width: 100%;
+  }
+}
